@@ -40,13 +40,11 @@ This application simulates a wallet with all your history of gains and loss for 
 <br>
 <img alt="Dark & light mode" src="./app_gifs/dashboard_dark_mode.gif">
 <br><br>
+</div>
 
-<p align="center">
 <a href="https://lailton-b.github.io/minha_carteira/">
 <img src="./src/assets/button.svg"/>
 </a>
-</p>
-</div>
 
 <br><br>
 
