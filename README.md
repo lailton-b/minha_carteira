@@ -1,21 +1,21 @@
-<h1 align="center">
+<h1>
 <img alt="World Map" src="./src/assets/logo.svg" />
 <br>
 My Wallet
 </h1>
-<h2 align="center">
+<h2>
 This application simulates a wallet with all your history of gains and loss for each month and year.
 </h2>
-<p align="center">There is no database on this application, all data is fake.</p>
+<p>There is no database on this application, all data is fake.</p>
 <br>
 
-<p align="center">
-<img alt="License MIT" src="https://img.shields.io/github/license/lailton-b/search_countries">
+<p>
+<img alt="License MIT" src="https://img.shields.io/github/license/lailton-b/minha_carteira">
 <img alt="Last Commit" src="https://img.shields.io/github/last-commit/lailton-b/minha_carteira">
 </p>
 <br><br>
 
-<div style="text-align:center">
+<div>
 <h2>Account</h2>
 <p>
   <span style="margin-right: 10px">E-mail: user@mail.com</span> | 
@@ -40,11 +40,11 @@ This application simulates a wallet with all your history of gains and loss for 
 <br>
 <img alt="Dark & light mode" src="./app_gifs/dashboard_dark_mode.gif">
 <br><br>
-</div>
 
 <a href="https://lailton-b.github.io/minha_carteira/">
-<img src="./src/assets/button.svg"/>
+  <img src="./src/assets/button.svg"/>
 </a>
+</div>
 
 <br><br>
 
