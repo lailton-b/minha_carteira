@@ -44,17 +44,18 @@ const List: React.FC = () => {
 
   // List of months
   const months = React.useMemo(() => {
-    const filtteredMonths = listOfMonths.filter((_, index) => {
-      const date = new Date();
-      const actualMonth = date.getMonth();
+    const date = new Date();
+    const actualMonth = date.getMonth();
+    const actualYear = date.getFullYear();
 
-      return index <= actualMonth;
+    const filtteredMonths = listOfMonths.filter((_, index) => {
+      return yearSelected === actualYear ? index <= actualMonth : true;
     });
 
     return filtteredMonths.map((month, index) => {
       return { label: month, value: index + 1 }
     })
-  }, []);
+  }, [yearSelected]);
 
   // List of years
   const years = React.useMemo(() => {
@@ -65,6 +66,8 @@ const List: React.FC = () => {
 
       return !years.includes(year) && years.push(year);
     });
+
+    years.push(new Date().getFullYear());
 
     return years.map((year) => ({ label: year, value: year }));
   }, [list.records]);
